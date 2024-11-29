@@ -1,0 +1,41 @@
+.appointment-list {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.poc-details {
+  margin-bottom: 20px;
+}
+
+.appointment-list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.appointment-list th,
+.appointment-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.appointment-list th {
+  background-color: #f0f0f0;
+}
+
+.appointment-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.appointment-list tbody tr:hover {
+  background-color: #ddd;
+}
